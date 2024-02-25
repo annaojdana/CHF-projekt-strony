@@ -349,13 +349,14 @@ class: .about-column-right
 
 /* Dostosowanie stylowania do mobile */
 @media screen and (max-width: 768px) {
-  h1{
+  h1 {
     font-size: 40px;
     max-width: 220px;
   }
 
-  .about-column-right{
-    width: 250px;
+  .about-column-right,
+  .about-column-left {
+    max-width: 100%;
   }
   .nav-menu {
     display: none;
