@@ -1,0 +1,382 @@
+/* Resetowanie styli */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+body {
+  font-family: "Catamaran", sans-serif;
+  color: #373737;
+}
+
+img {
+  width: 100%;
+}
+
+/* typografia */
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  padding: 0;
+  line-height: 0.8;
+  font-family: "Courier New", Courier, monospace;
+}
+
+h1 {
+  margin-bottom: 50px;
+  font-size: 100px;
+}
+
+h2 {
+  font-size: 50px;
+}
+
+h3 {
+  font-size: 24px;
+}
+h2,
+h3 {
+  font-weight: 100;
+}
+
+p {
+  font-size: 18px;
+}
+
+li {
+  list-style: none;
+}
+
+/* stylowanie sekcji */
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+#interest {
+  background-color: #4f247c;
+  color: #ffffff;
+}
+
+#quote {
+  background-color: #bf0034;
+  color: #ffffff;
+}
+
+section {
+  padding: 60px 20px; /* góry i dołu lewa i prawa */
+}
+
+/* stylowanie headera */
+
+header {
+  padding: 100px 20px;
+  background-image: url("../images/hero-background-2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  color: #ffffff;
+}
+
+/* stylowanie logo */
+.logo {
+  width: 30px;
+  height: 30px;
+}
+
+.logo path {
+  stroke: #ffffff;
+}
+.first-part-logo {
+  color: #bf0034;
+  font-size: 30px;
+}
+/* stylowanie menu mobilnego */
+.burger-menu,
+.close-menu {
+  display: none;
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  margin-bottom: 10px;
+}
+
+.close-menu svg {
+  fill: #ffffff;
+  width: 30px;
+  height: 30px;
+}
+
+.open {
+  display: block;
+}
+
+/* stylowanie nawigacji */
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.nav-menu {
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* stylowanie tekstu */
+.header-text {
+  max-width: 500px;
+}
+
+.header-text p {
+  margin-bottom: 50px;
+  font-weight: 300;
+  font-style: italic;
+}
+.header-text a {
+  padding: 5px 10px;
+  border: 2px solid #bf0034;
+}
+.header-text a:hover {
+  background-color: #bf0034;
+  font-weight: 500;
+}
+
+/* stylowanie sekcji about */
+.about-wraper {
+  display: flex;
+  gap: 50px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.about-column-left,
+.about-column-right {
+  max-width: 45%;
+}
+
+/* stylowanie sekcji about - kolumny prawej */
+
+.about-column-right h2 {
+  color: #bf0034;
+  margin-bottom: 20px;
+}
+
+.about-introduction {
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.about-introduction::first-letter {
+  color: #bf0034;
+  font-weight: 900;
+  font-size: 30px;
+}
+
+/* stylowanie sekcji zainteresowania */
+
+#interest ul {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: center;
+}
+
+#interest li {
+  max-width: 300px;
+}
+
+#interest h3 {
+  margin-bottom: 15px;
+}
+
+/* stylowanie sekcji zainteresowania - ikony */
+
+#interest svg {
+  width: 50px;
+  height: 50px;
+  transform: translateY(25%);
+}
+#interest ul div {
+  width: 75px;
+  height: 75px;
+  border: 2px solid #bf0034;
+  border-radius: 50%;
+  margin: 0 auto 20px;
+}
+
+/* stylowanie sekcji zdjęcia */
+#photos {
+  text-align: center;
+}
+
+#photos h2 {
+  color: #4f247c;
+  margin-bottom: 20px;
+}
+
+#photos p {
+  margin: 0 auto;
+  margin-bottom: 30px;
+  max-width: 500px;
+}
+.photos-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+}
+.photos-gallery figure {
+  max-width: 30%;
+  min-width: 250px;
+}
+.photos-gallery figcaption {
+  font-size: 12px;
+}
+
+.quote-wraper {
+  display: flex;
+}
+.quote-wraper div {
+  height: 75px;
+  transform: translateY(25%);
+}
+.quote-icon {
+  width: 75px;
+  height: 75px;
+  fill: #4f247c;
+}
+
+blockquote p {
+  margin-bottom: 10px;
+}
+blockquote footer {
+  text-align: right;
+}
+
+/* stylowanie sekcji kontakt */
+
+#contact h2 {
+  text-align: center;
+  color: #bf0034;
+  margin-bottom: 50px;
+}
+#contact form {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  min-width: 280px;
+  max-width: 500px;
+}
+#contact label {
+  text-transform: capitalize;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.contact-input {
+  margin-bottom: 16px;
+  padding: 8px 10px;
+  font-size: 14px;
+  border-radius: 10px;
+  border: 1px solid #4f247c;
+}
+
+#contact form button {
+  margin: 0 auto;
+  width: 100px;
+  padding: 10px;
+  background-color: #4f247c;
+  color: #ffffff;
+  border-radius: 10px;
+  border: 2px solid #4f247c;
+  text-transform: capitalize;
+}
+#contact form button:hover {
+  background-color: #ffffff;
+  color: #373737;
+}
+
+/* 
+Selektory:
+nazwą tagu(znacznika htmla): h1, header, body
+id: #about
+class: .about-column-right
+*/
+/* Stylowanie footera */
+.footer {
+  background-color: #4f247c;
+  color: #ffffff;
+  padding: 40px 20px;
+}
+
+.footer-wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.footer-icon-container {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  align-items: flex-end;
+}
+.footer-icon-container a {
+  height: 40px;
+}
+.footer-text-container {
+  min-width: 200px;
+}
+
+.footer-text-container p {
+  margin-bottom: 16px;
+}
+
+.footer-text-container p:last-of-type {
+  margin-bottom: 0;
+}
+
+/* Dostosowanie stylowania do mobile */
+@media screen and (max-width: 768px) {
+  h1{
+    font-size: 40px;
+    max-width: 220px;
+  }
+
+  .about-column-right{
+    width: 250px;
+  }
+  .nav-menu {
+    display: none;
+    width: auto;
+  }
+  .menu-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  .nav-menu li {
+    text-align: right;
+    margin-bottom: 10px;
+  }
+  .burger-menu {
+    display: block;
+  }
+  .open {
+    display: block;
+  }
+  .hidden {
+    display: none;
+  }
+}

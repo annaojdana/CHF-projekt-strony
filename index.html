@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Moja strona</title>
+    <!-- linki do czcionki użytej w projkcie -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- linki do plików css -->
+    <link rel="stylesheet" href="style/normalize.css" />
+    <link rel="stylesheet" href="style/main.css" />
+  </head>
+
+  <body>
+    <!-- Początek strony -->
+    <header>
+      <div class="container">
+        <nav>
+          <div class="logo-container">
+            <span class="first-part-logo">A</span
+            ><span class="last-part-logo">O</span>
+
+            <svg
+              class="logo"
+              width="60px"
+              height="60px"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M8 15C12.8747 15 15 12.949 15 8C15 12.949 17.1104 15 22 15C17.1104 15 15 17.1104 15 22C15 17.1104 12.8747 15 8 15Z"
+                stroke="#000000"
+                stroke-width="1.5"
+                stroke-linejoin="round"
+              ></path>
+              <path
+                d="M2 6.5C5.13376 6.5 6.5 5.18153 6.5 2C6.5 5.18153 7.85669 6.5 11 6.5C7.85669 6.5 6.5 7.85669 6.5 11C6.5 7.85669 5.13376 6.5 2 6.5Z"
+                stroke="#ffffff"
+                stroke-width="1.5"
+                stroke-linejoin="round"
+              ></path>
+            </svg>
+          </div>
+          <div class="menu-wrapper">
+            <div class="burger-menu">
+              <svg
+                class="icon-menu"
+                width="30px"
+                height="30px"
+                stroke-width="1.5"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                color="#fff"
+              >
+                <path
+                  d="M3 5H21"
+                  stroke="#fff"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></path>
+                <path
+                  d="M3 12H21"
+                  stroke="#fff"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></path>
+                <path
+                  d="M3 19H21"
+                  stroke="#fff"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></path>
+              </svg>
+            </div>
+            <div class="close-menu">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="24"
+                viewBox="0 -960 960 960"
+                width="24"
+              >
+                <path
+                  d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"
+                />
+              </svg>
+            </div>
+            <ul class="nav-menu">
+              <li><a href="#about">O mnie</a></li>
+              <li><a href="#interest">Zainteresowania</a></li>
+              <li><a href="#photos">Zdjęcia</a></li>
+              <li><a href="#contact">Kontakt</a></li>
+            </ul>
+          </div>
+        </nav>
+        <div class="header-text">
+          <h1>Cześć</h1>
+          <p>
+            Mam na imię Ania. Zajmuję się programowanie. Lorem ipsum dolor sit
+            amet consectetur adipisicing elit. Facilis sapiente dolorem
+            aspernatur! Possimus, unde dicta? Non veniam libero ut, ex, dolore
+            reiciendis dicta architecto totam aspernatur ab laborum. Placeat,
+            animi!
+          </p>
+          <a href="#contact">Poznajmy się</a>
+        </div>
+      </div>
+    </header>
+    <main>
+      <!-- Sekja o mnie -->
+      <section id="about">
+        <div class="container about-wraper">
+          <div class="about-column-left">
+            <img src="images/female-astronaut.jpg" alt="Astonautka" />
+          </div>
+          <div class="about-column-right">
+            <h2>O mnie</h2>
+            <p class="about-introduction">Jestem Ada</p>
+            <p class="about-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Accusantium ipsam tenetur sint ex in ab laudantium quis quidem
+              omnis inventore unde nulla, voluptatem dolores tempore ipsa
+              doloribus perferendis. <br />
+              <br />
+              Animi, iure? Sequi repellendus reiciendis non ut exercitationem
+              officia accusamus officiis, alias ea aperiam cupiditate cum
+              delectus, ullam iste sit. Consectetur alias dignissimos impedit
+              deleniti ab cum. Incidunt nostrum non excepturi assumenda? <br />
+              <br />Pariatur laudantium ex est non dignissimos autem,
+              perferendis deserunt totam facilis iure libero, blanditiis facere
+              repellendus voluptas assumenda quaerat quo magnam minima dolorum
+              porro! Facere dolorum nihil facilis aut quasi.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="interest">
+        <div class="container">
+          <ul>
+            <li>
+              <div>
+                <svg
+                  width="100px"
+                  stroke-width="1.5"
+                  height="100px"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  color="#fff"
+                >
+                  <path
+                    d="M18.5 15L5.5 15"
+                    stroke="#fff"
+                    stroke-width="1.5"
+                    stroke-linejoin="round"
+                  ></path>
+                  <path
+                    d="M16 4L8 4"
+                    stroke="#fff"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></path>
+                  <path
+                    d="M9 4.5L9 10.2602C9 10.7376 8.82922 11.1992 8.51851 11.5617L3.48149 17.4383C3.17078 17.8008 3 18.2624 3 18.7398V19C3 20.1046 3.89543 21 5 21L19 21C20.1046 21 21 20.1046 21 19V18.7398C21 18.2624 20.8292 17.8008 20.5185 17.4383L15.4815 11.5617C15.1708 11.1992 15 10.7376 15 10.2602L15 4.5"
+                    stroke="#fff"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></path>
+                  <path
+                    d="M12 9.01L12.01 8.99889"
+                    stroke="#fff"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></path>
+                  <path
+                    d="M11 2.01L11.01 1.99889"
+                    stroke="#fff"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></path>
+                </svg>
+              </div>
+              <h3>Odkrycia</h3>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo
+                autem sunt excepturi omnis ex eveniet id laboriosam doloremque?
+                Temporibus tempore totam impedit, eos at sit illum adipisci iste
+                officia laudantium!
+              </p>
+            </li>
+            <li>
+              <div>
+                <svg
+                  width="100px"
+                  height="100px"
+                  stroke-width="1.5"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  color="#fff"
+                >
+                  <circle
+                    cx="12"
+                    cy="12"
+                    r="8"
+                    stroke="#fff"
+                    stroke-width="1.5"
+                    stroke-width="1.5"
+                  ></circle>
+                  <path
+                    d="M17.4995 6.34835C19.7975 5.80967 21.4447 5.87208 21.8376 6.66002C22.5686 8.12616 18.6797 11.5491 13.1515 14.3053C7.62327 17.0616 2.5492 18.1074 1.81821 16.6413C1.4263 15.8553 2.36234 14.5067 4.16701 13.0001"
+                    stroke="#fff"
+                    stroke-width="1.5"
+                  ></path>
+                </svg>
+              </div>
+              <h3>Kosmos</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </li>
+            <li>
+              <div>
+                <svg
+                  width="100px"
+                  height="100px"
+                  stroke-width="1.5"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  color="#fff"
+                >
+                  <path
+                    d="M11.4563 2.66509C11.6717 2.2034 12.3283 2.2034 12.5437 2.66509L15.4077 8.80229C15.4673 8.93 15.57 9.03266 15.6977 9.09227L21.8349 11.9563C22.2966 12.1717 22.2966 12.8283 21.8349 13.0437L15.6977 15.9077C15.57 15.9673 15.4673 16.07 15.4077 16.1977L12.5437 22.3349C12.3283 22.7966 11.6717 22.7966 11.4563 22.3349L8.59227 16.1977C8.53266 16.07 8.43 15.9673 8.30229 15.9077L2.16509 13.0437C1.7034 12.8283 1.7034 12.1717 2.16509 11.9563L8.30229 9.09227C8.43 9.03266 8.53266 8.93 8.59227 8.80229L11.4563 2.66509Z"
+                    stroke="#fff"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></path>
+                </svg>
+              </div>
+              <h3>Astronomia</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. At,
+                beatae? Eveniet, veritatis. Libero eius nemo adipisci, et
+                dolorem necessitatibus magnam earum omnis minus veritatis? Sunt
+                dignissimos dolore illum nostrum atque! Itaque sequi velit
+                dignissimos neque aspernatur assumenda! Quia nesciunt soluta
+                quibusdam totam sit consectetur enim adipisci itaque cupiditate
+                in, debitis reiciendis qui cumque doloremque incidunt explicabo.
+                Blanditiis doloribus consequatur ratione!
+              </p>
+            </li>
+            <li>
+              <div>
+                <?xml version="1.0" encoding="UTF-8"?><svg
+                  width="24px"
+                  height="24px"
+                  stroke-width="1.5"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  color="#ffffff"
+                >
+                  <path
+                    d="M17.3056 4.11325L18.2147 2.1856C18.3314 1.93813 18.6686 1.93813 18.7853 2.1856L19.6944 4.11325L21.7275 4.42427C21.9884 4.46418 22.0923 4.79977 21.9035 4.99229L20.4326 6.4917L20.7797 8.60999C20.8243 8.88202 20.5515 9.08946 20.3181 8.96099L18.5 7.96031L16.6819 8.96099C16.4485 9.08946 16.1757 8.88202 16.2203 8.60999L16.5674 6.4917L15.0965 4.99229C14.9077 4.79977 15.0116 4.46418 15.2725 4.42427L17.3056 4.11325Z"
+                    stroke="#ffffff"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></path>
+                  <path
+                    d="M13 2.04938C12.6711 2.01672 12.3375 2 12 2C6.47715 2 2 6.47715 2 12C2 13.8214 2.48697 15.5291 3.33782 17L2.5 21.5L7 20.6622C8.47087 21.513 10.1786 22 12 22C17.5228 22 22 17.5228 22 12C22 11.6625 21.9833 11.3289 21.9506 11"
+                    stroke="#ffffff"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></path>
+                </svg>
+              </div>
+              <h3>Fizyka</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia,
+                saepe. Vero minus dolorum cum quaerat nesciunt repellat,
+                suscipit itaque perferendis quod velit atque earum aspernatur
+                amet ipsum cupiditate dignissimos distinctio!
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section id="photos">
+        <div class="container">
+          <div>
+            <h2>Zdjęcia</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe
+              velit repudiandae quo nihil dolorem eligendi eum deleniti
+              quibusdam voluptatum culpa dolore mollitia pariatur in sunt ex,
+              quae fuga? Maiores, recusandae.
+            </p>
+          </div>
+          <div class="photos-gallery">
+            <figure>
+              <img src="images/mountains-540115_1280.jpg" alt="" />
+              <figcaption>
+                Zdjęcie <strong>Faik Ahmed</strong> z <strong>Pexels</strong>
+              </figcaption>
+            </figure>
+            <figure>
+              <img src="images/mountains-540115_1280.jpg" alt="" />
+
+              <figcaption>
+                Zdjęcie <strong>Faik Ahmed</strong> z <strong>Pexels</strong>
+              </figcaption>
+            </figure>
+            <figure>
+              <img src="images/mountains-540115_1280.jpg" alt="" />
+              <figcaption>
+                Zdjęcie <strong>Faik Ahmed</strong> z <strong>Pexels</strong>
+              </figcaption>
+            </figure>
+            <figure>
+              <img src="images/mountains-540115_1280.jpg" alt="" />
+
+              <figcaption>
+                Zdjęcie <strong>Faik Ahmed</strong> z <strong>Pexels</strong>
+              </figcaption>
+            </figure>
+            <figure>
+              <img src="images/mountains-540115_1280.jpg" alt="" />
+              <figcaption>
+                Zdjęcie <strong>Faik Ahmed</strong> z <strong>Pexels</strong>
+              </figcaption>
+            </figure>
+            <figure>
+              <img src="images/mountains-540115_1280.jpg" alt="" />
+              <figcaption>
+                Zdjęcie <strong>Faik Ahmed</strong> z <strong>Pexels</strong>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+      <section id="quote">
+        <div class="container quote-wraper">
+          <div>
+            <svg
+              class="quote-icon"
+              width="120px"
+              height="120px"
+              stroke-width="1.5"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M10 12H5C4.44772 12 4 11.5523 4 11V7.5C4 6.94772 4.44772 6.5 5 6.5H9C9.55228 6.5 10 6.94772 10 7.5V12ZM10 12C10 14.5 9 16 6 17.5"
+                stroke="#4f247c"
+                stroke-width="1.5"
+                stroke-linecap="round"
+              ></path>
+              <path
+                d="M20 12H15C14.4477 12 14 11.5523 14 11V7.5C14 6.94772 14.4477 6.5 15 6.5H19C19.5523 6.5 20 6.94772 20 7.5V12ZM20 12C20 14.5 19 16 16 17.5"
+                stroke="#4f247c"
+                stroke-width="1.5"
+                stroke-linecap="round"
+              ></path>
+            </svg>
+          </div>
+          <blockquote>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum,
+              quae porro libero distinctio quia itaque. Corporis, eos culpa.
+              Culpa necessitatibus blanditiis id quidem architecto recusandae
+              ab, eius minima dolore ipsa.
+            </p>
+            <footer>Autor, książka</footer>
+          </blockquote>
+        </div>
+      </section>
+      <section id="contact">
+        <div class="container">
+          <h2>Napisz do mnie</h2>
+          <form>
+            <label for="first-name" placeholder="Imię">imię</label>
+            <input id="first-name" class="contact-input" type="text" />
+            <label for="email">Email</label>
+            <input id="email" class="contact-input" type="email" />
+            <label for="msg">Wiadomość</label>
+            <textarea
+              id="msg"
+              class="contact-input"
+              cols="30"
+              rows="10"
+            ></textarea>
+            <button type="submit">wyślij</button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container footer-wrapper">
+        <div class="footer-text-container">
+          <p>&copy; Code Her Future</p>
+          <p>Główne zdjęcie autorstwa</p>
+          <p>Zdjęcie astronautki autorstwa</p>
+        </div>
+        <div class="footer-icon-container">
+          <a
+            href="https://www.facebook.com/"
+            target="_blank"
+            referrerpolicy="no-referrer"
+            ><svg
+              width="40px"
+              height="40px"
+              stroke-width="1.5"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              color="#fff"
+            >
+              <path
+                d="M12 16C14.2091 16 16 14.2091 16 12C16 9.79086 14.2091 8 12 8C9.79086 8 8 9.79086 8 12C8 14.2091 9.79086 16 12 16Z"
+                stroke="#fff"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></path>
+              <path
+                d="M3 16V8C3 5.23858 5.23858 3 8 3H16C18.7614 3 21 5.23858 21 8V16C21 18.7614 18.7614 21 16 21H8C5.23858 21 3 18.7614 3 16Z"
+                stroke="#fff"
+                stroke-width="1.5"
+              ></path>
+              <path
+                d="M17.5 6.51L17.51 6.49889"
+                stroke="#fff"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></path>
+            </svg>
+          </a>
+          <a
+            href="https://www.facebook.com/"
+            target="_blank"
+            referrerpolicy="no-referrer"
+            ><svg
+              width="40px"
+              height="40px"
+              stroke-width="1.5"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              color="#fff"
+            >
+              <path
+                d="M12 16C14.2091 16 16 14.2091 16 12C16 9.79086 14.2091 8 12 8C9.79086 8 8 9.79086 8 12C8 14.2091 9.79086 16 12 16Z"
+                stroke="#fff"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></path>
+              <path
+                d="M3 16V8C3 5.23858 5.23858 3 8 3H16C18.7614 3 21 5.23858 21 8V16C21 18.7614 18.7614 21 16 21H8C5.23858 21 3 18.7614 3 16Z"
+                stroke="#fff"
+                stroke-width="1.5"
+              ></path>
+              <path
+                d="M17.5 6.51L17.51 6.49889"
+                stroke="#fff"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></path>
+            </svg>
+          </a>
+          <a
+            href="https://www.facebook.com/"
+            target="_blank"
+            referrerpolicy="no-referrer"
+            ><svg
+              width="40px"
+              height="40px"
+              stroke-width="1.5"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              color="#fff"
+            >
+              <path
+                d="M12 16C14.2091 16 16 14.2091 16 12C16 9.79086 14.2091 8 12 8C9.79086 8 8 9.79086 8 12C8 14.2091 9.79086 16 12 16Z"
+                stroke="#fff"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></path>
+              <path
+                d="M3 16V8C3 5.23858 5.23858 3 8 3H16C18.7614 3 21 5.23858 21 8V16C21 18.7614 18.7614 21 16 21H8C5.23858 21 3 18.7614 3 16Z"
+                stroke="#fff"
+                stroke-width="1.5"
+              ></path>
+              <path
+                d="M17.5 6.51L17.51 6.49889"
+                stroke="#fff"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></path>
+            </svg>
+          </a>
+          <a
+            href="https://www.facebook.com/"
+            target="_blank"
+            referrerpolicy="no-referrer"
+            ><svg
+              width="40px"
+              height="40px"
+              stroke-width="1.5"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              color="#fff"
+            >
+              <path
+                d="M12 16C14.2091 16 16 14.2091 16 12C16 9.79086 14.2091 8 12 8C9.79086 8 8 9.79086 8 12C8 14.2091 9.79086 16 12 16Z"
+                stroke="#fff"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></path>
+              <path
+                d="M3 16V8C3 5.23858 5.23858 3 8 3H16C18.7614 3 21 5.23858 21 8V16C21 18.7614 18.7614 21 16 21H8C5.23858 21 3 18.7614 3 16Z"
+                stroke="#fff"
+                stroke-width="1.5"
+              ></path>
+              <path
+                d="M17.5 6.51L17.51 6.49889"
+                stroke="#fff"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </footer>
+    <script src="js/open-menu.js"></script>
+  </body>
+</html>
+
+<!-- <video src="https://youtu.be/5CBZ6DymX0Y?si=0VhvarvKr_B_ufK0"></video> -->
+
+<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/5CBZ6DymX0Y?si=0VhvarvKr_B_ufK0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
+<!-- <p>km <sup>2</sup> <sub>2</sub>
+</p> -->
+
+<!-- <b></b> pogrubia -->
+<!-- <strong></strong> pogrubiony tekst ale semantycznie ważniejszy -->
+<!-- <i></i> przechyla tekst -->
+<!-- <em></em> przechylony tekst ale semantycznie ważniejszy -->
+
+<!-- <table>
+  <caption>
+    Front-end web developer course 2021
+  </caption>
+  <thead>
+    <tr>
+      <th scope="col">Person</th>
+      <th scope="col">Most interest in</th>
+      <th scope="col">Age</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">Chris</th>
+      <td>HTML tables</td>
+      <td>22</td>
+    </tr>
+    <tr>
+      <th scope="row">Dennis</th>
+      <td>Web accessibility</td>
+      <td>45</td>
+    </tr>
+    <tr>
+      <th scope="row">Sarah</th>
+      <td>JavaScript frameworks</td>
+      <td>29</td>
+    </tr>
+    <tr>
+      <th scope="row">Karen</th>
+      <td>Web performance</td>
+      <td>36</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <th scope="row" colspan="2">Average age</th>
+      <td>33</td>
+    </tr>
+  </tfoot>
+</table> -->
