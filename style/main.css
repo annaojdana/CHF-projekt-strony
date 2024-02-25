@@ -164,6 +164,38 @@ nav {
   max-width: 45%;
 }
 
+/* Stylownie zdjęcia */
+
+.about-column-left {
+  position: relative;
+}
+.about-column-left .img {
+  width: 80%;
+
+  margin: 0 auto;
+  z-index: 2;
+}
+.about-column-left::after {
+  content: "";
+  position: absolute;
+  top: -10%;
+  left: 0%;
+  border: 20px solid #4f247c;
+  width: 100%;
+  height: 100%;
+  z-index: -2;
+}
+
+.about-column-left::before {
+  content: "";
+  position: absolute;
+  top: -10%;
+  left: 0%;
+border: 10px solid #bf0034;
+  width: 80%;
+  height: 100%;
+  z-index: -1;
+}
 /* stylowanie sekcji about - kolumny prawej */
 
 .about-column-right h2 {
